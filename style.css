@@ -1,0 +1,165 @@
+     body{
+        background-color: #31352E;
+      }
+      #myGame{
+        background-color: #228b22;
+        height: 95vh;
+        width: 80%;
+        margin:auto;
+        margin-top: ;
+        overflow: hidden;
+        border-radius:4px;
+        border-width:6px;
+        border-style: double;
+        border-color:white;
+
+      }
+      #text{
+        font-size: 1.5rem;
+      }
+      
+      table{
+        flex:1 0 auto;
+        margin-left:30px;
+        display:block;
+        padding-top: 30px;
+
+      }
+      tr{
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+        top: 23%;
+        padding-bottom: 15px;
+      }
+      canvas{
+        background-color: #D4D6CF;
+        width: 120px;
+        height: 160px;
+        display: inline-block;
+        margin-left:5px;
+        border-radius:5px;
+        
+        background-size: 1300% 400%;
+      /*width of card=8.3% height=33.33% */
+        
+      }
+      canvas:filled{
+        background: url('cards.png') no-repeat;
+      }
+      .AceClubs{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 0% 33.33%;}
+      .AceSpades{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position:0% 0%;}
+      .AceDiamonds{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 0% 66.67%;}
+      .AceHearts{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 0% 100%;}
+      .TwoClubs{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 8.3% 33.33%;}
+      .TwoSpades{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 8.3% 0%;}
+      .TwoDiamonds{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 8.3% 66.67%;}
+      .TwoHearts{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 8.3% 100%;}
+      .ThreeClubs{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 16.67% 33.33%;}
+      .ThreeSpades{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 16.67% 0%;}
+      .ThreeDiamonds{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 16.67% 66.67%;}
+      .ThreeHearts{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 16.67% 100%;}
+      .FourClubs{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 25% 33.33%;}
+      .FourSpades{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 25% 0%;}
+      .FourDiamonds{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 25% 66.67%;}
+      .FourHearts{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 25% 100%;}
+      .FiveClubs{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 33.33% 33.33%;}
+      .FiveSpades{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 33.33% 0%;}
+      .FiveDiamonds{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 33.33% 66.67%;}
+      .FiveHearts{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 33.33% 100%;}
+      .SixClubs{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 41.67% 33.33%;}
+      .SixSpades{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 41.67% 0%;}
+      .SixDiamonds{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 41.67% 66.67%;}
+      .SixHearts{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 41.67% 100%;}
+      .SevenClubs{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 50% 33.33%;}
+      .SevenSpades{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 50% 0%;}
+      .SevenDiamonds{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 50% 66.67%;}
+      .SevenHearts{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 50% 100%;}
+      .EightClubs{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 58.33% 33.33%;}
+      .EightSpades{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 58.33% 33.33%;}
+      .EightDiamonds{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 58.33% 33.33%;}
+      .EightHearts{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 58.33% 33.33%;}
+      .NineClubs{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 66.67% 33.33%;}
+      .NineSpades{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 66.67% 0%;}
+      .NineDiamonds{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 66.67% 66.67%;}
+      .NineHearts{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 66.67% 100%;}
+      .TenClubs{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 75% 33.33%;}
+      .TenSpades{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 75% 0%;}
+      .TenDiamonds{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 75% 66.67%;}
+      .TenHearts{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 75% 100%;}
+      .JackClubs{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 83.33% 33.33%;}
+      .JackSpades{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 83.33% 0%;}
+      .JackDiamonds{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 83.33% 66.67%;}
+      .JackHearts{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 83.33% 100%;}
+      .QueenClubs{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 91.67% 33.33%;}
+      .QueenSpades{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 91.67% 0%;}
+      .QueenDiamonds{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 91.67% 66.67%;}
+      .QueenHearts{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 91.67% 100%;}
+      .KingClubs{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 100% 33.33%;}
+      .KingSpades{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 100% 0%;}
+      .KingDiamonds{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 100% 66.67%;}
+      .KingHearts{background: url('cards.png') no-repeat;background-size: 1300% 400%;background-position: 100% 100%;}
+      .DeckCover{background: url('purple_back.png') no-repeat;background-size: 100% 100%;background-position: 0 0 ;}
+
+      #deck{
+        display:block;
+        margin:auto;
+        float:right;
+        position:relative;
+        right: 90px;
+        top:145px;
+
+        
+      }
+      #wrap{
+        text-align: center;
+      }      
+      #action{
+        display:inline-block;
+        margin-right:auto;
+        margin-left: auto;
+      }
+      button{
+        margin:4px;
+        padding:2px;
+        background-color: ;
+        border:2px solid black;
+        width: 100px;
+
+
+      }
+      button:hover{
+        
+        background-color:black;
+        opacity:.9;
+        color:white;
+        border: 1px solid #D4D6CF;
+        -webkit-box-shadow: 0px 1px 1px black, -1px -1px 0px black, -1px 1px 0px black;
+        -webkit-transition:.3s;
+      }
+      button:active{
+        -webkit-box-shadow: inset 0px 0px 5px black;
+      }
+      #new{
+
+        margin-right:auto;
+        margin-left: auto;
+      }
+      #value{
+        display:inline-block;
+        height:20px;
+        width: 200px;
+        background-color: white;
+        border: 1px solid black;
+        -webkit-border-start-color:#D4D6CF;
+      }
+      #pot{
+        display:block;
+        margin-top:10px;
+        height:20px;
+        width: 150px;
+        background-color: white;
+        border: 1px solid black;
+        -webkit-border-start-color:#D4D6CF;
+      }
+    

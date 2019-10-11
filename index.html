@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='style.css' rel='stylesheet' type='text/css' />
+  </head>
+   <body>
+    <section id="myGame">
+      
+      <div id='wrap'>
+        <div id='text' type=text></div>
+        <div id='over' type=text></div>
+        <table>
+        <tr id="playerCards">
+          <td><canvas id="p1" style=""></canvas></td>
+          <td><canvas id="p2"></canvas></td>
+          <td><canvas id="p3"></canvas></td>
+          <td><canvas id="p4"></canvas></td>
+          <td><canvas id="p5"></canvas></td>
+        </tr>
+        <tr id="dealerCards">
+          <td><canvas id="d1"></canvas></td>
+          <td><canvas id="d2"></canvas></td>
+          <td><canvas id="d3"></canvas></td>
+          <td><canvas id="d4"></canvas></td>
+          <td><canvas id="d5"></canvas></td>
+          <td id='value'><div id='pval' type="text">Player Value:</div></td>
+          <td id='value'><div id='dval' type='text'>Dealer Value:</div></td>
+        </tr>
+        <div id="deck">
+        <canvas ></canvas>
+      </table>
+       <div id="action">
+        <button id='hit'>hit</button>
+        <button id='stand'>stand</button>
+        <button id='startGame'>Start Game</button>
+      </div>
+      <div id='new'><button id='newGame'>New Game</button></div>
+    </div>
+    </section>
+    
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.js" type="text/javascript"></script>
+    <script src="js/blackJ.js" type='text/javascript'></script>
+   </script>
+   </body>
+</html>
