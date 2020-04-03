@@ -264,7 +264,7 @@ $startGame.click(function(){
     dealer.addCard();
     $('#d2').addClass('DeckCover', 800,'linear');
     dealer.aceCheck();
-    $dval.text('Dealer Value: '+(dealer.value-values[dealer.cards[0].rank]));
+    $dval.text('Dealer Value: '+(dealer.value));
     /*start game*/
     /*Player1 turn*/
     playerTurn=true;
